@@ -8,12 +8,17 @@
   border-style: dashed ;
   border-width: 5px;
   border-color: green;
-  width: 75vw;
-  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #tablet{
-  width: 75vw;
+  padding: 15px;
+  background-color: gold;
+  width: auto;
   height: auto;
 }
 
