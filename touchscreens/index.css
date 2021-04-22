@@ -30,8 +30,8 @@ flex-direction: row;
 }
 
 .screen-flex {
-  flex: 70%;
-  min-width:300px;
+  flex: 100%;
+  min-width:400px;
   border: solid 2px black;
 }
 
