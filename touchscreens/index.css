@@ -1,3 +1,5 @@
-div#tablet{
+#screen{
   border-style: solid;
+  border-width: thick;
+  border-color: tomato;
 }
