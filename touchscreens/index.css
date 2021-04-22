@@ -2,7 +2,7 @@
   border-style: solid;
   border-width: thin;
   border-color: tomato;
-}
+  }
 
 #screen{
   border-style: dashed ;
@@ -22,6 +22,6 @@
   height: auto;
 }
 
-div#tablet{
-  margin: auto;
+html{
+    background-color: cornflowerblue;
 }
