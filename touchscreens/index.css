@@ -38,6 +38,7 @@ html{
   display: inline;
   flex: 25%;
   border: solid 2px black;
+  min-width: 300px;
 }
 
 .container-flex {
@@ -49,5 +50,12 @@ html{
 .screen-flex {
   flex: 70%;
   min-width:
-  border: solid 2px black; 
+  border: solid 2px black;
+}
+
+.right-flex{
+  display: inline;
+  flex: 25%;
+  border: solid 2px black;
+  min-width: 300px;
 }
