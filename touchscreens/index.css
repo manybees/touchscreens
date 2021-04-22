@@ -61,7 +61,7 @@ Aside {
   display: block;
   margin: 0;
   position: relative;
-  top: 50%;
+  top: 40%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -80,7 +80,6 @@ h1, h2, h3, h4, {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin: 5px;
 }
 
 .block {
