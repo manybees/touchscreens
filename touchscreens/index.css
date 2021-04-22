@@ -1,43 +1,99 @@
 
-
 html{
-    background-color: cornflowerblue;
+  background-color: cornflowerblue ;
+  background-image:   url("../img/");
+  background-repeat:  repeat;
+  background-size:    300px;
 }
 
-#flex-container {
+Main {
+  border: solid 1px red;
+  flex: 50%;
+  min-width: 450px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+main img {
+  max-width: 70%;
+  min-width: 320px;
+  z-index: 2;
+  position: relative;
+  top: -80%;
+}
+
+main iframe {
+  max-width: 70%;
+  min-width:320px;
+  z-index: 1;
+  position:relative;
+  top: 3%;
+  max-height: 900px;
+  min-height: 80%;
+}
+Section {
+  border: solid 0px transparent;
+  background-color: white;
+  flex: 46%;
+  min-width: 190px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+Aside {
+  border: solid 1px transparent;
+  background-color: white;
+  border-radius: 10px;
+  flex: 20%;
+  min-width: 210px;
+  text-align: center;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0px auto 0px auto;
+}
+
+.vert-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#top {
+  width: 100%;
+  overflow: hidden;
+  border: solid 0px transparent;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column;
-flex-direction: row;
-  width: 100%;
-  flex-flow: row;
-  border: solid 2px black;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
 }
 
-.left-flex {
-  display: inline;
-  flex: 25%;
-  border: solid 2px black;
-  min-width: 300px;
+.block {
+  min-width: 170px;
+  display: inline-block;
+  max-width: 250px;
+  padding: 10px 5px 0px 5px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 0px auto 0px auto;
+  }
+
+.block img {
+  max-width: 100%;
 }
 
-.container-flex {
-  display: flex;
-  flex: 50%;
-  border: solid 2px black;
-  justify-content: center;
-  min-width: 500px;
-}
 
-.screen-flex {
-  flex: 100%;
-  min-width:400px;
-  border: solid 2px black;
-}
-
-.right-flex{
-  display: inline;
-  flex: 25%;
-  border: solid 2px black;
-  min-width: 300px;
+@media screen and (max-width:800px) {
+  #top, main , #bottom, section, aside
+  {width:100%;}
 }
