@@ -1,5 +1,22 @@
-#screen{
+*{
   border-style: solid;
-  border-width: thick;
+  border-width: thin;
   border-color: tomato;
+}
+
+#screen{
+  border-style: dashed ;
+  border-width: 5px;
+  border-color: green;
+  width: 75vw;
+  height:auto;
+}
+
+#tablet{
+  width: 75vw;
+  height: auto;
+}
+
+div#tablet{
+  margin: auto;
 }
