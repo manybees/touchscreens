@@ -1,0 +1,23 @@
+html{
+  background-image:   url("./img/wallpaper.png");
+  background-size: 100%;
+}
+ #top {
+   display: flex;
+   flex:100%;
+   justify-content: center;
+   margin-top: 25%;
+ }
+
+ #bottom {
+   display: flex;
+   flex:100%;
+   justify-content: center;
+   margin-top: 10%;
+ }
+
+ #top img, #bottom img {
+   margin: auto;
+   width: 90%;
+   min-width: 100px;
+ }

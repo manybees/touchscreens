@@ -1,42 +1,36 @@
 
 html{
-  background-color: cornflowerblue ;
-  background-image:   url("../img/");
-  background-repeat:  repeat;
-  background-size:    300px;
+  background-color: #b4c4d8 ;
 }
 
 Main {
-  border: solid 1px red;
   flex: 50%;
-  min-width: 450px;
+  min-width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white;
   border-radius: 10px;
 }
 
 main img {
-  max-width: 70%;
-  min-width: 320px;
-  z-index: 2;
-  position: relative;
-  top: -80%;
+  max-width: 53%;
+      min-width: 320px;
+      z-index: 2;
+      position: relative;
+      top: -80%;
 }
 
 main iframe {
-  max-width: 70%;
-  min-width:320px;
-  z-index: 1;
-  position:relative;
-  top: 3%;
-  max-height: 900px;
-  min-height: 80%;
+  width: 50%;
+      min-width: 300px;
+      z-index: 1;
+      position: relative;
+      top: 3.4%;
+      max-height: 90px;
+      min-height: 80%;
 }
+
 Section {
-  border: solid 0px transparent;
-  background-color: white;
   flex: 46%;
   min-width: 190px;
   flex-grow: 1;
@@ -44,8 +38,6 @@ Section {
 }
 
 Aside {
-  border: solid 1px transparent;
-  background-color: white;
   border-radius: 10px;
   flex: 20%;
   min-width: 210px;
@@ -60,6 +52,7 @@ Aside {
 .vert-center {
   display: block;
   margin: 0;
+  padding: 0px 25px 0px 25px;
   position: relative;
   top: 40%;
   -ms-transform: translateY(-50%);
