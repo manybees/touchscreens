@@ -4,7 +4,7 @@ html{
 }
 
 Main {
-  flex: 50%;
+  flex: 40%;
   min-width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -26,7 +26,7 @@ main iframe {
       z-index: 2;
       position: relative;
       top: 3.4%;
-      max-height: 91.8px;
+      max-height: 88px;
       min-height: 76.8%;
       border: transparent;
       border-radius: 15px;
