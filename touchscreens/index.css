@@ -13,21 +13,23 @@ Main {
 }
 
 main img {
-  max-width: 53%;
-      min-width: 320px;
-      z-index: 2;
-      position: relative;
-      top: -80%;
+  max-width: 52.4%;
+  min-width: 320px;
+  z-index: 1;
+  position: relative;
+  top: -76.2%;
 }
 
 main iframe {
   width: 50%;
-      min-width: 300px;
-      z-index: 1;
+      min-width: 299px;
+      z-index: 2;
       position: relative;
       top: 3.4%;
-      max-height: 90px;
-      min-height: 80%;
+      max-height: 91.8px;
+      min-height: 76.8%;
+      border: transparent;
+      border-radius: 15px;
 }
 
 Section {
