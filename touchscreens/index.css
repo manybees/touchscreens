@@ -33,6 +33,7 @@ main iframe {
       min-height: 76.8%;
       border: transparent;
       border-radius: 15px;
+      overflow: hidden;
 }
 
 
