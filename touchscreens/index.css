@@ -21,7 +21,10 @@ main img {
 }
 
 main iframe {
-  width: 50%;
+
+      margin-top: calc( 299/558 * 100%);
+
+      width: 50%;
       min-width: 299px;
       z-index: 2;
       position: relative;
@@ -32,6 +35,8 @@ main iframe {
       border-radius: 15px;
       overflow: hidden;
 }
+
+
 
 Section {
   flex: 46%;
