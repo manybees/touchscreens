@@ -106,7 +106,8 @@ nav {
   top: 920%;
   left: -222%;
   background-color: #464646;
-  min-width: 160px;
+  min-width: 280px;
+  width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
