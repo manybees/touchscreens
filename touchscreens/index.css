@@ -4,7 +4,7 @@ html{
 }
 
 Main {
-  flex: 40%;
+  flex: 20%;
   min-width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -19,24 +19,20 @@ main img {
   position: relative;
   top: -76.2%;
 }
-
+/*DO NOT TOUCH THE iFRAME!!!! I FIXED IT! 
+if you have problems with your page fix the sizing within it*/
 main iframe {
-
-      margin-top: calc( 299/558 * 100%);
-
-      width: 50%;
-      min-width: 299px;
-      z-index: 2;
-      position: relative;
-      top: 3.4%;
-      max-height: 88px;
-      min-height: 76.8%;
-      border: transparent;
-      border-radius: 15px;
-      overflow: hidden;
+  width: 50%;
+  min-width: 299px;
+  z-index: 2;
+  position: relative;
+  top: 3.4%;
+  max-height: 88px;
+  min-height: 76%;
+  border: transparent;
+  border-radius: 15px;
+  overflow: hidden;
 }
-
-
 
 Section {
   flex: 46%;
