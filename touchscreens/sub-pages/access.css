@@ -1,0 +1,109 @@
+html {
+  background-color: white;
+}
+
+span {
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.red{
+  color: red;
+  font-size: x-large;
+}
+
+.yellow {
+  color: #f1f11f;
+      font-size: large;
+      position: absolute;
+      left: 35%;
+      top: 5%;
+}
+
+.green {
+  color: green;
+      font-size: x-large;
+      position: absolute;
+      top: 8%;
+      left: 40%;
+}
+
+.blue {
+  color: blue;
+      font-size: x-large;
+      position: absolute;
+      top: 8%;
+      left: 65%;
+}
+
+#blocka{
+  width:100%;
+  padding:0px;
+  display: inline-block;
+  margin-bottom:10px;
+}
+#blocka img{
+  float: left;
+width: 40%;
+min-width: 50px;
+position: relative;
+left: -8px;
+z-index: -1;
+margin-bottom:10px;
+}
+
+.one {
+  width: 85%;
+    justify-content: center;
+    display: inline-block;
+    float: right;
+    position: fixed;
+    left: 18%;
+    top: 18%;
+}
+
+p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+#blockb {
+  width:100%;
+  padding: 0px 0px 0px 5px;
+  display: inline-block;
+}
+
+#blockb img {
+  float: right;
+  width: 40%;
+  min-width: 50px;
+  position: relative;
+  left: 3px;
+  top: -12px;
+  z-index: -1;
+}
+
+.two {
+  width: 80%;
+  justify-content: center;
+  display: inline-block;
+  float: left;
+  position: fixed;
+  left: 2%;
+  top:51%;
+}
+
+nav {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-family: monospace;
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+}

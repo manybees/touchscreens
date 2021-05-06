@@ -12,6 +12,19 @@ Main {
   border-radius: 10px;
 }
 
+h1 {
+  font-family: 'Martel Sans', sans-serif;
+font-size: xx-large;
+margin: 0;
+padding: 0;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: small;
+}
+
 main img {
   max-width: 52.4%;
   min-width: 320px;
@@ -19,7 +32,7 @@ main img {
   position: relative;
   top: -76.2%;
 }
-/*DO NOT TOUCH THE iFRAME!!!! I FIXED IT! 
+/*DO NOT TOUCH THE iFRAME!!!! I FIXED IT!
 if you have problems with your page fix the sizing within it*/
 main iframe {
   width: 50%;
