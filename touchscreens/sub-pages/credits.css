@@ -1,0 +1,14 @@
+html{
+
+}
+
+td {
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+    display: inline-block;
+}
