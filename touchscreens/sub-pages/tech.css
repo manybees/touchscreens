@@ -35,3 +35,7 @@ a:hover{
   color:black;
   text-decoration: none;
 }
+
+.btn-link:focus{
+  text-decoration: none;
+}
