@@ -1,9 +1,13 @@
 #icon{
-  width: 10vw;
+  width: 30vw;
   height: auto;
 }
 
 h4{
   text-indent: 10px;
   padding-top: 10px;
+}
+
+.card-header{
+  background-color: white;
 }
