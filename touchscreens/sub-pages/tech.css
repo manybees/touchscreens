@@ -58,3 +58,14 @@ a:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+
+img{
+  max-width: 85vw;
+  height: auto;
+
+}
+
+p{
+  text-indent: 10px;
+}
